@@ -7,11 +7,11 @@ import time
 from dataclasses import dataclass, field
 from typing import List, Optional
 
-VIDEO_DIR      = "C:\PythonProject\PythonProject3"
+VIDEO_DIR      = r"C:\PythonProject\PythonProject3"
 VIDEO_FILENAME = "sheesh.mp4"
 VIDEO_PATH = os.path.join(VIDEO_DIR, VIDEO_FILENAME) #Итоговый путь
 
-OUTPUT_DIR      = "C:\Анжуманя"
+OUTPUT_DIR      = r"C:\Анжуманя"
 OUTPUT_FILENAME = "result.mp4"   # None - не сохранять
 OUTPUT_PATH = (
     os.path.join(OUTPUT_DIR, OUTPUT_FILENAME)

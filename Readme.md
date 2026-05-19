@@ -1,7 +1,8 @@
 # PYTHON 3.10 
 # MEDIAPIPE 0.10.14
 # ПУТИ К ВИДЕО
-     VIDEO_DIR      = "/home/user/videos" - Папка к видео                      
+     VIDEO_DIR      = "/home/user/videos" - Папка к видео        
+                    = r"C:\Users\user\Videos" - Виндовс, выше Мак и Линукс
      VIDEO_FILENAME      = "video.mp4" - Название видео     
      OUTPUT_DIR      = "/home/outputs" - Папка с обработанными видео                   
      OUTPUT_FILENAME = "workout.mp4" - Обр. видео 
