@@ -310,7 +310,7 @@ def print_report(events: List[PushupEvent], video_path: str):
     print("═" * 50 + "\n")
 
     pushups_total = len(events)
-# ─────────────────────────── CLI ────────────────────────────────
+# Для Терминала CLI
 
 def parse_args():
     parser = argparse.ArgumentParser(
